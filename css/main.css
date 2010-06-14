@@ -20,6 +20,7 @@ body {
     #mkzzn-details a, #mkzzn-details div {
       color: white;
       display: block;
+      text-decoration: none;
       margin-bottom: 8px;
       font-size: 2.4em;
       font-weight: normal;
@@ -28,4 +29,8 @@ body {
     
       #mkzzn-details div {
         color: #4486FF;
+      }
+
+      #mkzzn-details a:hover {
+        color: #8CB5FF;
       }
