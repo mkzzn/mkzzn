@@ -1,0 +1,54 @@
+body {
+  background: #B0CCFF;
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+}
+
+  #container {
+    margin: 160px 4% 4px auto;
+    width: 440px;
+    padding: 40px;
+    background: #005AFF;
+    border: 1px dotted #052E56;
+  }
+
+    img#mkzzn-logo {
+      display: block;
+      margin-left: auto;
+      margin-bottom: 4px;
+    }
+
+    #mkzzn-details {
+      display: block;
+      margin-left: auto;
+      text-align: right;
+    }
+
+      #mkzzn-details a, #mkzzn-details div {
+        color: white;
+        text-decoration: none;
+        font-size: 2.0em;
+        font-weight: normal;
+        font-family: Arial, Verdana, Sans, Sans-Serif;
+      }
+      
+        #mkzzn-details div {
+          font-size: 3.2em;
+          color: #F7FF45;
+        }
+
+          .name {
+            font-weight: bold;
+            color: white;
+          }
+
+        #mkzzn-details a {
+          /* color: #F6FF30;
+          color: #CBDDFF; */
+          color: #B0CCFF;
+        }
+
+        #mkzzn-details a:hover {
+          color: white;
+        }
