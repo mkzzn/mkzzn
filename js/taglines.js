@@ -16,5 +16,7 @@ function randomTagline() {
 }
 
 $(document).ready(function() {
-  $("#logo-tagline").html(randomTagline());
+  $("#mkzzn-logo").load(function() {
+    $("#logo-tagline").html(randomTagline());
+  });
 });
