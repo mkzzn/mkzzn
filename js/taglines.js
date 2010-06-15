@@ -10,13 +10,7 @@ function randomTagline() {
     "diplomat-catapulting and marmoset-confounding",
     "skillful-brick-laying and crocodile-annihilating",
     "salary-cap-defying and ostrich-ridiculing"
-  ]
+  ];
   
-  return taglines[Math.floor(Math.random()*taglines.length)]
+  return taglines[Math.floor(Math.random()*taglines.length)];
 }
-
-$(document).ready(function() {
-  $("#mkzzn-logo").load(function() {
-    $("#logo-tagline").html(randomTagline());
-  });
-});
