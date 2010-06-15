@@ -1,5 +1,6 @@
 body {
-  background: #B0CCFF;
+  /* lighter blue #B0CCFF; */
+  background: #052E56;
   font-size: 62.5%;
   padding: 0;
   margin: 0;
@@ -10,7 +11,7 @@ body {
     width: 440px;
     padding: 40px;
     background: #005AFF;
-    border: 1px dotted #052E56;
+    border: 1px dotted #80ADFF;
   }
 
     img#mkzzn-logo {
