@@ -15,6 +15,6 @@ function randomTagline() {
   return taglines[Math.floor(Math.random()*taglines.length)]
 }
 
-jQuery(function($) {
+$(document).ready(function() {
   $("#logo-tagline").html(randomTagline());
 });
