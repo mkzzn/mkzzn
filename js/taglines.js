@@ -15,7 +15,14 @@ taglines = [
   "salary-cap-defying and ostrich-ridiculing",
   "quantum",
   "ambivalent",
-  "conscientious"
+  "conscientious",
+  "dastardly",
+  "cantankerous",
+  "Rooster-Cogburn-indifferentiating",
+  "selectively egalitarian",
+  "predominantly agro-touristic",
+  "deliberately incapacitated",
+  "intercontinental, ballistic"
 ];
 
 taglineSubjects = [
@@ -29,5 +36,15 @@ taglineSubjects = [
   "phantasmagoria",
   "idiomat",
   "thunderdome",
-  "Olympus"
+  "Olympus",
+  "mongoose",
+  "narwhal",
+  "Confusatron",
+  "Impostinator",
+  "Argumentatron",
+  "breakfastmaster",
+  "burgomeister",
+  "prawnvoy",
+  "monkfish assassin",
+  "calliope trebuchet"
 ];
