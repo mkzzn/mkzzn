@@ -3,9 +3,25 @@ function randomArrayMember(a) {
 }
 
 tagline = {
+  "adverbs" : [
+    "selectively",
+    "deliberately",
+    "predominantly",
+    "entirely",
+    "fantastically",
+    "improperly",
+    "inexplicably",
+    "lambastingly",
+    "angioplastically",
+    "crowmoundishly",
+    "incapacitatingly",
+    "bulldoggishly"
+  ],
+
   "adjectives" : [
     "terrifying",
     "illogical",
+    "preemininent",
     "mind-altering",
     "child-pulverizing",
     "soul-decanting",
@@ -25,19 +41,19 @@ tagline = {
     "salary-cap-defying",
     "ostrich-ridiculing",
     "quantum",
-    "improperly digested",
-    "inexplicably revered",
+    "digested",
+    "revered",
     "ambivalent",
     "conscientious",
     "dastardly",
-    "fantastically mundane",
+    "mundane",
     "cantankerous",
     "Rooster-Cogburn-indifferentiating",
-    "selectively egalitarian",
-    "predominantly agro-touristic",
-    "deliberately incapacitated",
+    "egalitarian",
+    "agro-touristic",
+    "incapacitated",
     "intercontinental ballistic",
-    "entirely semi-conducting",
+    "semi-conducting",
     "mongrel-unionizing",
     "agoraphobe-wrangling",
     "polyglot",
@@ -46,7 +62,7 @@ tagline = {
     "meta-fungal"
   ],
 
-  "nouns":[
+  "nouns" : [
     "metatarsal",
     "dodecahedron",
     "Marmaduke",
