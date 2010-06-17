@@ -1,9 +1,10 @@
 #!/bin/bash
-APP_NAME=mkzzn
-TMP_PATH=/tmp/$APP_NAME
-REMOTE_PATH=/var/www/mkzzn
+app_name=mkzzn
+tmp_path=/tmp/$app_name
+remote_path=/var/www/mkzzn
+remote_host=doblock
 
-ssh-add ~/.ssh/`echo $APP_NAME`_dsa
-if [ -d $TMP_PATH ]; then rm -rf $TMP_PATH; fi
-git clone mkzzn_github:mkzzn/$APP_NAME.git $TMP_PATH
-rsync -avz -e ssh $TMP_PATH doblock:$REMOTE_PATH
+ssh $remote_host "echo 2>&1" || ssh-add ~/.ssh/`echo $app_name`_dsa
+rm -rf $tmp_path
+git clone mkzzn_github:mkzzn/$app_name.git $tmp_path
+rsync -avz -e ssh $tmp_path $remote_host:$remote_path
