@@ -3,6 +3,7 @@ APP_NAME=mkzzn
 TMP_PATH=/tmp/$APP_NAME
 REMOTE_PATH=/var/www/mkzzn
 
-rm -rf $TMP_PATH
+ssh-add ~/.ssh/`echo $APP_NAME`_dsa
+if [ -d $TMP_PATH ]; then rm -rf $TMP_PATH; fi
 git clone mkzzn_github:mkzzn/$APP_NAME.git $TMP_PATH
 rsync -avz -e ssh $TMP_PATH doblock:$REMOTE_PATH

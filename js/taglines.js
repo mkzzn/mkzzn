@@ -28,5 +28,6 @@ taglineSubjects = [
   "ikebana hut",
   "phantasmagoria",
   "idiomat",
-  "world"
+  "thunderdome",
+  "Olympus"
 ];
